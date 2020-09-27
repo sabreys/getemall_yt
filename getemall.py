@@ -6,11 +6,14 @@
 # https://youtube-dl.org
 # https://ffmpeg.org
 # creator: sabrey
-
+import sys
 import time
+
+import selenium
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import os
+
 
 driver = webdriver.Chrome()
 
@@ -34,21 +37,21 @@ def get_links(url):
         link_list.append(link.get_attribute("href"))
 
 #you can change youtube-dl command https://youtube-dl.org
-def download_videos(file_path):
+def download_videos():
     for element in link_list:
         print(element)
-        command = "youtube-dl -o " + file_path + "\%(title)s.%(ext)s " + element
+        command = "youtube-dl " + element
         os.system(command)
 
 
 def main():
     print("Youtube Video Scrapper  by Sabrey \n")
-    file_path=input("download location = ")
-    url = input("channel link  : ")
+
+    url = sys.argv[1]
 
     get_links(url)
 
-    download_videos(file_path)
+    download_videos()
 
 
 

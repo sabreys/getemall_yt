@@ -10,7 +10,7 @@ import sys
 from selenium import webdriver
 import os
 import subprocess
-driver = webdriver.Chrome()
+
 
 
 def main():

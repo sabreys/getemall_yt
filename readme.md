@@ -23,7 +23,7 @@ It is a youtube video downloader for  cmd. You can download whole channel or onl
    This function downloads  list .
    
 
-> getlist "https://www.youtube.com/playlist?list=PLFIM0718LjIVknj6sgsSceMqlq242-jNf"
+    getlist "https://www.youtube.com/playlist?list=PLFIM0718LjIVknj6sgsSceMqlq242-jNf"
 
 
 

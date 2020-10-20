@@ -51,7 +51,7 @@ if you want to use this program as a cmd command,just add to environment path. I
 **- Features that wait  to be added**
  
 
- - list downloader(good my spotify)
+ - list downloader(good my spotify) :heavy_check_mark: added
  - video quality parameters
  - Download last x videos
  

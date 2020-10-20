@@ -14,6 +14,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import os
 
+import subprocess
 
 driver = webdriver.Chrome()
 
@@ -40,7 +41,7 @@ def get_links(url):
 def download_videos():
     for element in link_list:
         print(element)
-        command = "youtube-dl " + element
+        subprocess.run(["youtube-dl", element], stdin=subprocess.DEVNULL)
         os.system(command)
 
 

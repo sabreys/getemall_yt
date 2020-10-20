@@ -9,16 +9,18 @@
 import sys
 from selenium import webdriver
 import os
-
+import subprocess
 driver = webdriver.Chrome()
 
 
 def main():
     print("Youtube Video Scrapper  by Sabrey \n")
     url = sys.argv[1]
-    command = "youtube-dl " + url
+   # command = "youtube-dl " + url
+    
     print("downloading...")
-    os.system(command)
+   # os.system(command)
+    subprocess.run(["youtube-dl", url], stdin=subprocess.DEVNULL)
 
 
 if __name__ == "__main__":

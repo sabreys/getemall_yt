@@ -58,6 +58,8 @@ if you want to use this program as a cmd command,just add to environment path. I
  - video quality parameters
  - Download last x videos
  
+ **- My review :cake:**
+ I downloaded my childhood music list with 1 command. We were using  sites with full of ads and scams. Downloading music 1 by 1 is really boring job and you can't find all old songs in spotify. Making different lists and downloading them with 1 command is really satisfying. I noticed that old videos were disappearing over time on the Internet,so downloading valuable memories is important.It was an easy project but really usefull.:grin::grin::grin:
 
 **-My cmd Programs**
 

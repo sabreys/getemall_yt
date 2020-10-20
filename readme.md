@@ -35,14 +35,17 @@ It is a youtube video downloader for  cmd. You can download whole channel or onl
     get1mp3 "https://www.youtube.com/watch?v=ZUrXOpHb3UY"
 
    **-getmp3list command**
+   
    This function downloads  whole list  as a mp3 file.
 
     getmp3list  "https://www.youtube.com/playlist?list=PLis6bkA3ULpwGDZfSHI5-7kWWVpB3OyFm"
 
 **-What is required?**
+
 this program require  ffmpeg , youtube-dl and chrome driver. download  these and put in windows file or add as  enviroment path. ffmpeg and youtube-dl are really usefull tools.
 
 **-Using as a cmd program**
+
 if you want to use this program as a cmd command,just add to environment path. It will make this so portable. you can download your video that where you want without any service or web site, Just 1 command.
  I  use C for making cmd programs than execute python codes, so you need to change getem.c and compile for your computer.
 

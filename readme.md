@@ -14,7 +14,7 @@ It is a youtube video downloader for  cmd. You can download whole channel or onl
    
 **-get1 command**
 
-         This function downloads  video.
+   This function downloads  video.
 
     get1 https://www.youtube.com/watch?v=ZUrXOpHb3UY
 

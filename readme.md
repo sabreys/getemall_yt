@@ -5,7 +5,7 @@ It is a youtube video downloader for  cmd. You can download whole channel or onl
 
 
 **-getem command**
-   This function downloads all videos in given channel. It will scroll down until the end than will start downloading. (it can be stucked sometimes, you need to wait until see "downloading". if you can't see, press any key in terminal. it will be fixed soon. working with selenium driver is quit hard and unstable for me)
+   This function downloads all videos in given channel. It will scroll down until the end than will start downloading. 
    
   ![enter image description here](https://github.com/sabreys/getemall_yt/blob/master/images/cm%C4%B1.PNG?raw=true)
   ![enter image description here](https://github.com/sabreys/getemall_yt/blob/master/images/dfdf%C4%B1.PNG?raw=true)

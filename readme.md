@@ -1,22 +1,19 @@
 # Getemall_yt
   **-What is Getemall_yt ?**
-  
 It is a youtube video downloader for  cmd. You can download whole channel or only one video.
  
 
 
 **-getem command**
-
    This function downloads all videos in given channel. It will scroll down until the end than will start downloading. (it can be stucked sometimes, you need to wait until see "downloading". if you can't see, press any key in terminal. it will be fixed soon. working with selenium driver is quit hard and unstable for me)
    
   ![enter image description here](https://github.com/sabreys/getemall_yt/blob/master/images/cm%C4%B1.PNG?raw=true)
   ![enter image description here](https://github.com/sabreys/getemall_yt/blob/master/images/dfdf%C4%B1.PNG?raw=true)
    
 **-get1 command**
-
          This function downloads  video.
 
-    get1 https://www.youtube.com/watch?v=ZUrXOpHb3UY
+    get1 "https://www.youtube.com/watch?v=ZUrXOpHb3UY"
 
 ![enter image description here](https://github.com/sabreys/getemall_yt/blob/master/images/get1.PNG?raw=true)
 
@@ -26,7 +23,22 @@ It is a youtube video downloader for  cmd. You can download whole channel or onl
    This function downloads  list .
    
 
-> getlist https://www.youtube.com/playlist?list=PLFIM0718LjIVknj6sgsSceMqlq242-jNf
+    getlist "https://www.youtube.com/playlist?list=PLFIM0718LjIVknj6sgsSceMqlq242-jNf"
+
+
+
+**-get1mp3 command**
+
+   This function downloads  video as a mp3 file.
+     
+
+    get1mp3 "https://www.youtube.com/watch?v=ZUrXOpHb3UY"
+
+   **-getmp3list command**
+   
+   This function downloads  whole list  as a mp3 file.
+
+    getmp3list  "https://www.youtube.com/playlist?list=PLis6bkA3ULpwGDZfSHI5-7kWWVpB3OyFm"
 
 **-What is required?**
 
@@ -42,10 +54,12 @@ if you want to use this program as a cmd command,just add to environment path. I
 **- Features that wait  to be added**
  
 
- - list downloader(good my spotify)
+ - list downloader(good by spotify) :heavy_check_mark: added
  - video quality parameters
  - Download last x videos
  
+ **- My review :cake:**
+ I downloaded my childhood music list with 1 command. We were using  sites with full of ads and scams. Downloading music 1 by 1 is really boring job and you can't find all old songs in spotify. Making different lists and downloading them with 1 command is really satisfying. I noticed that old videos were disappearing over time on the Internet,so downloading valuable memories is important.It was an easy project but really usefull.:grin::grin::grin:
 
 **-My cmd Programs**
 
@@ -55,4 +69,3 @@ if you want to use this program as a cmd command,just add to environment path. I
 </p>
 
  [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=sabreys&repo=sabreys_cmd)](https://github.com/sabreys/sabreys_cmd)
-

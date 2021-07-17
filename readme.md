@@ -1,6 +1,6 @@
 # Getemall_yt
   **-What is Getemall_yt ?**
-It is a youtube video downloader for  cmd. You can download whole channel or only one video.
+It is a youtube video downloader for  cmd. You can download whole channel or only one video. You check from this [Tutorial Video](https://www.youtube.com/watch?v=cv42YlMUhOk).
  
 
 
